@@ -117,7 +117,7 @@
     /*                     _________________________           */
 
     div.bottom {
-        margin: 0 0 0 0.5em;
+        margin: 0 1em 0 1em;
         display: block;
     }
 
@@ -132,17 +132,13 @@
     /* Cards */
 
     div.cards {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
     div.cards img {
         width: 100px;
         margin: 0;
-    }
-
-    .arrow {
-        margin: 0 0 0 2%;
     }
 
 }
