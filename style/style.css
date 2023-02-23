@@ -1,0 +1,367 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LOGO */
+div.logo {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+div.logo h1 {
+    display: inline-block;
+    color: rgb(255, 166, 0);
+}
+
+div.logo .star {
+    color: #fff;
+    vertical-align: super;
+}
+
+/*                                ------------                                  */
+
+/*                         " NAVBAR "              */
+ul.nav {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgb(90, 90, 90);
+    padding: 15px;
+    letter-spacing: 1px;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    color: #000;
+    text-decoration: none;
+    padding: 0.7em;
+}
+
+.nav li a:hover {
+    color: white;
+    background-color: rgb(60, 60, 60);
+    border-radius: 5px;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+/*                                ------------                                  */
+
+
+
+/*                Stylish of "my image"            */
+
+.circle {
+    width: 220px;
+    height: 300px;
+    padding-left: 100px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 50%;
+    background-image: url("../Images/myimage.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+/*                                ------------                                  */
+
+
+/*                   STYLISH: "Name & also Paragraph"      1st para                */
+.name {
+    margin-left: 1.2em;
+    font-size: 45px;
+    position: relative;
+    text-shadow: 1px 1px 4px #fff;
+
+}
+
+.name::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    /* transform: translateX(-50%); */
+    border-bottom: 4px solid rgb(233, 153, 6);
+}
+
+p strong {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(187, 187, 187);
+    font-size: 20px;
+    margin-left: 2.5em;
+    margin-top: 10px;
+    font-weight: lighter;
+    display: inline-block;
+    white-space: pre-line;
+}
+
+p>i {
+    color: rgb(54, 54, 54);
+    font-size: 50px;
+    margin-left: 2.5em;
+}
+
+
+
+
+
+
+/*                  ____________________________________                      */
+
+/*                           Para RIGHT (2nd para)                        */
+div.para2 {
+    margin-right: 2em;
+    align-self: center;
+}
+
+div.para2 p b {
+    line-height: 50px;
+    font-size: 30px;
+    border-bottom: 2px solid (233, 153, 6);
+}
+
+div.para2 p em {
+    white-space: pre-line;
+    font-size: 17px;
+    color: rgb(216, 205, 205);
+}
+
+div.para2-btn {
+    color: rgb(233, 153, 6);
+    font-weight: bolder;
+}
+
+span i {
+    margin-left: 0.5em;
+}
+
+ul.icons {
+    padding: 0;
+}
+
+ul.icons li {
+    list-style: none;
+    display: inline-block;
+    width: 2.4em;
+}
+
+ul.icons li i {
+    padding: 4px 5px;
+    color: rgb(255, 166, 0);
+    background-color: rgb(67, 66, 66);
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+ul.icons li i:hover {
+    background-color: rgb(35, 35, 35);
+    color: rgb(229, 255, 0);
+    transform: scale(1.5);
+}
+
+/*                  image box stylish (google etc)                                   */
+
+div.img-box {
+    position: relative;
+    bottom: 3em;
+    background-color: rgb(114, 113, 113);
+    width: 80vw;
+    height: 18vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(28, 28, 28, 0.514) 1px 3px 2px, rgba(50, 52, 85, 0.479) 0px -12px 30px, rgba(21, 22, 35, 0.12) 0px 4px 6px, rgba(76, 73, 105, 0.17) 0px 12px 13px, rgba(57, 62, 78, 0.671) 0px -3px 5px;
+}
+
+.meta,
+.google,
+.linked,
+.slack {
+    background-color: rgb(80, 80, 80);
+    height: 10vh;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.meta img,
+div.google img,
+div.linked img,
+div.slack img {
+    width: 75%;
+}
+
+/*                  ____________________________________                      */
+
+
+
+
+/* Inner side of main div 2 ki Stylish */
+
+
+div.bottom {
+    margin: 0 0 0 5em;
+    display: flex;
+}
+
+div.head h1 {
+    color: #fff;
+    white-space: pre-line;
+}
+
+div.para {
+    width: 45%;
+    text-align: left;
+}
+
+div.para p {
+    color: rgb(160, 159, 159);
+    font-size: 1em;
+}
+
+
+/* alignment of table mean 250+ projects...   ( TABLE )              */
+
+
+/* table,th,td {
+    border: 2px solid  black;
+} */
+
+th {
+    color: rgb(255, 149, 0);
+    text-align: left;
+    font-size: 2em;
+    width: 40%;
+    text-shadow: 1px 1px 2px #000;
+}
+
+
+td {
+    color: rgb(170, 170, 170);
+    font-size: 1rem;
+}
+
+div.div-2 {
+    background-color: red;
+}
+
+
+/*                  ____________________________________                      */
+
+/* ---------------------    cards:style    --------------------*/
+
+
+div.table {
+    margin-bottom: 3em;
+}
+
+div.cards {
+    width: 80vw;
+}
+
+div.cards img {
+    margin-bottom: 1em;
+    width: 12vw;
+    height: 15vh;
+}
+
+div.cards h2,
+div.cards p {
+    margin: 0;
+}
+
+.arrow {
+    color: rgb(223, 186, 36);
+    font-size: 1.3em;
+    position: absolute;
+    right: 0;
+}
+
+div.cards h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+
+div.cards p {
+    color: rgb(160, 159, 159);
+}
+
+div.card1 {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(105, 105, 105);
+}
+
+div.card2 {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    width: 85%;
+}
+
+div.card3 {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    position: relative;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                  ____________________________________                      */
+
+
+/* mains container for alignment... */
+div.main {
+    background-color: rgb(121, 121, 121);
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+div.main2 {
+    height: 120vh;
+    background-color: rgb(63, 63, 63);
+}
+
+/*                  ____________________________________                      */
