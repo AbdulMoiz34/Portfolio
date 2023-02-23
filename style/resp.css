@@ -1,0 +1,185 @@
+/*            media query for mobile screen                 */
+
+@media (max-width:678px) {
+
+    div.logo {
+        display: none;
+    }
+
+    ul.nav {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 0;
+        padding-right: 2px;
+        margin: 2px 0 0 0;
+        font-size: 13px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    ul.nav li a {
+        display: inline-block;
+        padding: 5px 3px;
+    }
+
+
+    /* image */
+    .circle {
+        width: 150px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+    /*      Para left / name           */
+    p strong {
+        white-space: normal;
+        margin: 0.3em;
+
+    }
+
+    p>i {
+        margin: 0.3em;
+    }
+
+    p .name {
+        margin: 0.2em;
+        border: none;
+    }
+
+    /*          right paragraph / services              */
+    div.main {
+        display: block;
+    }
+
+    div.para2 p b {
+        border: none;
+        line-height: 0;
+    }
+
+    div.para2 {
+        margin: 0.2em;
+    }
+
+    div.para2-text p em {
+        white-space: normal;
+    }
+
+    div.main {
+        height: fit-content;
+        padding: 1px 0 2.5em 0;
+    }
+
+    /*               Images ka box meta etc...            */
+
+
+    div.img-box {
+        display: flex;
+        flex-direction: column;
+        bottom: 2em;
+        height: 14vh;
+        align-items: flex-start;
+    }
+
+    div.meta {
+        position: absolute;
+        top: 0.5em;
+        left: 0.5em;
+    }
+
+    div.google {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        align-self: flex-end;
+    }
+
+    div.linked {
+        position: absolute;
+        bottom: 0.5em;
+        left: 0.5em;
+
+    }
+
+    div.slack {
+        align-self: flex-end;
+        position: absolute;
+        bottom: 0.5em;
+        right: 0.5em;
+    }
+
+    .meta,
+    .google,
+    .linked,
+    .slack {
+        height: 5vh;
+        width: 30vw;
+    }
+
+    /*                     _________________________           */
+
+    div.bottom {
+        margin: 0 0 0 0.5em;
+        display: block;
+    }
+
+    div.head h1 {
+        white-space: normal;
+    }
+
+    div.para {
+        width: auto;
+    }
+
+    /* Cards */
+
+    div.cards {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    div.cards img {
+        width: 100px;
+        margin: 0;
+    }
+
+    .arrow {
+        margin: 0 0 0 2%;
+    }
+
+}
+
+/*                     ____________________________________                 */
+
+
+/* For Zoom In & zoom out.... */
+
+@media (min-width:679px) and (max-width:1003px) {
+    p strong {
+        white-space: normal;
+        width: 30vw;
+    }
+
+    div.para2 p em {
+        white-space: normal;
+    }
+
+    div.para2-text {
+        width: 30vw;
+    }
+
+    div.para2 {
+        margin-left: 0.5em;
+    }
+}
+
+@media (min-width:678px) and (max-width:960px) {
+    .circle {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .name {
+        font-size: 2em;
+        margin-left: 1.5em;
+    }
+
+}
