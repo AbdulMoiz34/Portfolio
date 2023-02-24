@@ -361,6 +361,7 @@ div.cards-two h2 {
 }
 
 div.cards-two p {
+    transition: 0.7s;
     color: rgb(191, 190, 190);
 }
 
@@ -371,6 +372,7 @@ div.cards-two-1 {
     max-width: 20vw;
     background-color: rgb(111, 111, 111);
     border-radius: 20px;
+    transition: 1s;
 }
 
 div.cards-two-1 .icon {
@@ -387,9 +389,19 @@ div.cards-two-1 .icon {
 div.cards-two-1:hover,
 div.cards-two-2:hover,
 div.cards-two-3:hover {
-    background-color: green;
+    background-color: rgb(3, 161, 3);
+    transform: scale(1.1);
+    outline: 1px solid black;
 }
 
+div.cards-two-1:hover .icon {
+    filter: hue-rotate(44deg);
+    background-color: #272727;
+}
+
+div.cards-two-1:hover .paragraph p {
+    color: black;
+    }
 
 /*              card 2               */
 div.cards-two-2 {
@@ -399,6 +411,7 @@ div.cards-two-2 {
     min-height: 40vh;
     border-radius: 20px;
     padding: 10px;
+    transition: 1s;
 }
 
 div.cards-two-2 .icon {
@@ -412,6 +425,15 @@ div.cards-two-2 .icon {
     border-radius: 50%;
 }
 
+div.cards-two-2:hover .icon {
+    filter: hue-rotate(44deg);
+    background-color: #272727;
+}
+
+div.cards-two-2:hover .paragraph p {
+    color: black;
+}
+
 div.cards-two-3 {
     /*card 3 */
     background-color: rgb(111, 111, 111);
@@ -419,6 +441,7 @@ div.cards-two-3 {
     margin: 0 0 0 2%;
     border-radius: 20px;
     padding: 10px;
+    transition: 1s;
 }
 
 div.cards-two-3 .icon {
@@ -432,6 +455,14 @@ div.cards-two-3 .icon {
     border-radius: 50%;
 }
 
+div.cards-two-3:hover .icon {
+    filter: hue-rotate(44deg);
+    background-color: #272727;
+}
+
+div.cards-two-3:hover .paragraph p {
+    color: black;
+}
 
 
 
@@ -455,7 +486,7 @@ div.main {
 }
 
 div.main2 {
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     background-color: rgb(63, 63, 63);
 }
 

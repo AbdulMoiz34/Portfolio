@@ -3,7 +3,8 @@
 @media (max-width:678px) {
 
     div.logo,
-    div.nav-icons,div.cards-two {
+    div.nav-icons,
+    div.cards-two {
         display: none;
     }
 
