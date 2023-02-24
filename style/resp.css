@@ -80,6 +80,7 @@
         flex-direction: column;
         bottom: 2em;
         min-height: 80px;
+        max-height: 100px;
         align-items: flex-start;
     }
 
@@ -144,6 +145,7 @@
     div.cards img {
         min-width: 70px;
         min-height: 50px;
+        max-height: 65px;
         margin: 0;
     }
 
