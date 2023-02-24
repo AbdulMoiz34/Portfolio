@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* LOGO */
+/*                  logo           */
 div.logo {
     position: absolute;
     top: 0;
@@ -57,6 +57,21 @@ nav {
     z-index: 1;
 }
 
+div.nav-icons {
+    float: right;
+    margin-right: 3%;
+}
+
+.nav-icons img {
+    width: 20px;
+}
+
+span.icons {
+    width: 50px;
+    display: inline-block;
+}
+
+
 /*                                ------------                                  */
 
 
@@ -69,7 +84,7 @@ nav {
     padding-left: 100px;
     background-color: rgb(107, 107, 107);
     border-radius: 50%;
-    background-image: url("../Images/myimage.png");
+    background-image: url("../Images/MY\ img/myimage.png");
     background-size: 90%;
     background-repeat: no-repeat;
     align-self: center;
@@ -329,13 +344,93 @@ div.card3 {
     margin-top: 1em;
 }
 
+/*  Stylish of  CARDS 2 (Last Cards) */
 
 
 
 
+div.cards-two {
+    /*main */
+    margin: 10% 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+div.cards-two h2 {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+div.cards-two p {
+    color: rgb(191, 190, 190);
+}
+
+div.cards-two-1 {
+    /*card 1 */
+    padding: 10px;
+    min-height: 30vh;
+    max-width: 20vw;
+    background-color: rgb(111, 111, 111);
+    border-radius: 20px;
+}
+
+div.cards-two-1 .icon {
+    width: 80px;
+    height: 80px;
+    background-image: url("../Images/cards\ img/icons8-design-80.png");
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    border-radius: 50%;
+    background-size: 80%;
+    background-position: center;
+}
+
+div.cards-two-1:hover,
+div.cards-two-2:hover,
+div.cards-two-3:hover {
+    background-color: green;
+}
 
 
+/*              card 2               */
+div.cards-two-2 {
+    margin: 0 0 0 2%;
+    background-color: rgb(111, 111, 111);
+    max-width: 20vw;
+    min-height: 40vh;
+    border-radius: 20px;
+    padding: 10px;
+}
 
+div.cards-two-2 .icon {
+    width: 80px;
+    height: 80px;
+    background-image: url('../Images/cards\ img/icons8-computer-80.png');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    background-color: rgb(93, 93, 93);
+    border-radius: 50%;
+}
+
+div.cards-two-3 {
+    /*card 3 */
+    background-color: rgb(111, 111, 111);
+    max-width: 20vw;
+    margin: 0 0 0 2%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+div.cards-two-3 .icon {
+    width: 80px;
+    height: 80px;
+    background-image: url("../Images/cards\ img/icons8-responsive-design-80.png");
+    background-repeat: no-repeat;
+    background-color: rgb(93, 93, 93);
+    background-size: 75%;
+    background-position: center;
+    border-radius: 50%;
+}
 
 
 
@@ -360,8 +455,7 @@ div.main {
 }
 
 div.main2 {
-    padding-bottom: 10%;
-    /* height: 130vh; */
+    padding-bottom: 1%;
     background-color: rgb(63, 63, 63);
 }
 
