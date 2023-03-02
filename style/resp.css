@@ -10,9 +10,8 @@
 
     ul.nav {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 0;
+        padding: 2px;
         padding-right: 2px;
-        margin: 2px 0 0 0;
         font-size: 15px;
         display: flex;
         justify-content: space-between;
